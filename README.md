@@ -8,7 +8,7 @@ Clone or download this project to see how it looks.
 
 The app has been deployed to heroku and can be accessed here:
 
-http://thehimalayas.herokuapp.com/
+https://thehimalayas.herokuapp.com/
 
 NOTES:
 
