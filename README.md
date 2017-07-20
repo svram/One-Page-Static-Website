@@ -12,13 +12,8 @@ http://thehimalayas.herokuapp.com/
 
 NOTES:
 
-- I have connected my Heroku account with my github profile such that whenever a change is push to this repo, the diff gets
-pushed to heroku automatically (CI/CD). Heroku does this via web hooks
+- I have connected my Heroku account with my github profile such that whenever a change is committed to this repo, the diff gets pushed to heroku automatically (CI/CD) which re-deploys the app. Heroku does this via web hooks.
 
 - Heroku is an app server and as such doesn't 'allow' you to host purely static files. The workaround
-is to make Heroku think this is a PHP app (attribution to stack overflow here). The index.html is server
-from the index.php. 
-
-TODO:
-
-Convert to Flask app
+is to make Heroku think this is a Python app serving the home.html on the '/' route. If you are familiar
+with Flask, you will recognize the app structure pretty well.
